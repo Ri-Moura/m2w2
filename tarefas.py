@@ -7,7 +7,7 @@ O relacionamento entre as tabelas é One-to-Many (Um-para-Muitos), já que uma c
 Este programa criará um arquivo chamado tarefas.db, onde as tabelas serão armazenadas. Se o arquivo já existir, ele apenas se conectará a ele. 
 O código utiliza a biblioteca sqlite3 do Python para interagir com o banco de dados SQLite.
 '''
-
+# Biblioteca responsavel por interagir com o banco de dados
 import sqlite3
 
 # Conectar (ou criar) o banco de dados
